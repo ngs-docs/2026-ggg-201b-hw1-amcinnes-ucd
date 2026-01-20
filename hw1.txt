@@ -1,0 +1,9 @@
+NOTE: Name variants by location and give both the reference and sample alleles as in the VCF file.
+
+Q: which variants are present in which samples?
+
+
+Q: which variants are shared between two or more samples?
+
+
+Q: are there any variants that stand out in terms of their likely biological impact?
