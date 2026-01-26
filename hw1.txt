@@ -1,0 +1,91 @@
+NOTE: Name variants by location and give both the reference and sample alleles as in the VCF file.
+
+Q: which variants are present in which samples?
+answer structure: position ID | reference allele | sample allele
+SR2584403
+1329520	T	G
+4141016	C	A
+
+SR2584404
+238917	G	T
+806308	ATT	AT
+1329520	T	G
+4141016	C	A
+
+SR2584405
+15382		C	T	
+154497		T	G	
+254101		T	G	
+649522		C	T
+692265		C	T
+692268		A	G
+708118		T	C
+1176010		T	G
+1503866		A	C
+1680445		A	T
+1680446		A	T
+1733754		A	T
+1996109		A	T
+2000253		A	T
+2020126		C	G
+2103887		ACAGCCAGCCAGCCAGCCAGCCAGCCAGCCAG	ACAGCCAGCCAGCCAGCCAGCCAGCCAGCCAGCCAG
+2296329		A	C
+2330469		A	T
+2330472		A	T
+2416966		C	T
+2671373		T	G
+2682710		G	C
+2682764		C	T
+3090762		C	A
+3268057		T	C
+3351282		C	T	
+3509753		T	C	
+3568506		T	G	
+3762120		C	A	
+4029556		G	T	
+4029559		A	C	
+4192865		G	A	
+4497049		T	G	
+4503866		T	C	
+4505396		T	C
+4505407		G	A
+4506070		A	T
+4593578		C	T
+
+SR2584857
+920514	T	C
+3931002	A	C
+4141441	C	T
+4202391	T	G
+4530767	CACCCTAACCCT	CACCCTAACCCTAACCCT
+
+Q: which variants are shared between two or more samples?
+Pos ID: 1329520, ref = T, both SR2584403 and SR2584404 = G
+Pos ID: 4141016, ref = C, both SR2584403 and SR2584404 = A
+
+Q: are there any variants that stand out in terms of their likely biological impact?
+The SNVs in SRR2584403 are intergenic and not likely to have a strong biological impact.
+
+In SRR2584404, three of the variants are intergenic (806308, 1329520, 4141016) and not likely
+  to have a strong impact. 238917 is an upstream gene variant, and while it is not located in
+  the 5' UTR, it has a higher likelihood to have a biological impact than the other variants.
+  
+In SRR2584857, all variants are intergenic and not likely to have a strong biological impact.
+  4530779 is a multi-base pair insertion and is therefore the most likely of these variants
+  to have a biological impact, if any of them did.
+  
+In SR2584405, 37 of the variants are intergenic and not likely to have a strong biological impact.
+  Of these intergenic variants, 2103887 is a multi-base pair insertion and is the most likely
+  to have a biological impact, if any of them did (as above). 2 of the variants are upstream 
+  variants (1996109, 2000253) and 3 are downstream variants (3351282, 4192865, 4593578), all of 
+  which are SNVs.The downstream gene variants are not located in the 3' UTR, but similar to the 
+  upstream gene variants, these variants are more likely to have a biological impact than the 
+  intergenic variants.
+
+Overall, the up and downstream variants are more likely to have a biological impact than
+  the intergenic variants, although none of them rank as very severe.
+
+
+
+
+
