@@ -7,13 +7,3 @@ Q: which variants are shared between two or more samples?
 
 
 Q: are there any variants that stand out in terms of their likely biological impact?
-
-
-notes to self during assignment:
-already copied the reference genome (ecoli) as well as the four reads we are calling variants for
-activate snakemake
-while installing VEP, minimap2, bcftools, and samtools were all downgraded
-if run into any issues in the future, know it could be due to this downgrade
-mapping contains the above packages as well as VEP
-
-NOTE: only change made to snakefile so far is adding to the SAMPLES variable
